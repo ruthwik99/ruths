@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+.box {
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+#box1 {
+    width: 500px;
+    height: 40px;
+    margin: 0px;
+    font-size: 45px;
+    text-align: center;
+}
+
+#box2 {
+    width: 900px;
+    height: 300px;
+    margin: 20px;
+    font-size: 22px;
+    text-align: left;
+}

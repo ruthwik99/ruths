@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Care</title>
+  <link rel="icon" type="image/jpg" href="a4.jpeg">
+  <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="Anger()" class="box">Anger</button>
+        <script>
+            function Anger() {
+                window.location.href = 'Anger.html';
+            }
+        </script>
+        <button onclick="Sadness()" class="box">Sadness</button>
+        <script>
+            function Sadness() {
+                window.location.href = 'Sadness.html';
+            }
+        </script>
+        <button onclick="Stress()" class="box">Stress</button>
+        <script>
+            function Stress() {
+                window.location.href = 'Stress.html';
+            }
+        </script>
+        <button onclick="Anxiety()" class="box">Anxiety</button>
+        <script>
+            function Anxiety() {
+                window.location.href = 'Anxiety.html';
+            }
+        </script>
+    </div>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="Untitled design.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* General styling for both boxes */
+body {
+    margin: 0;
+    height: 150vh;
+    display: flex;
+    background-image: url('st1.jpg'); /* Add your image URL here */
+    background-size: cover; /* Make the background image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align boxes vertically */
+    background-color: #f4f4f4; /* Optional background color */
+}
+.box {
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Styling for Small Box 1 */
+#box1 {
+    width: 500;
+    height: 100px;
+    background-color:whitesmoke; /* Blue */
+    margin: 20px;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+/* Styling for Big Box 2 */
+#box2 {
+    width: 900px;
+    height: 700px;
+    background-color:rgba(225,225,225,0.5); /* Red */
+    margin: 20px;
+    text-align: left;
+    font-size: 22px;
+}

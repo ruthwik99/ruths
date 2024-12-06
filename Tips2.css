@@ -1,0 +1,38 @@
+/* General styling for both boxes */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align boxes vertically */
+    background-color: white; /* Optional background color */
+}
+.box {
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Styling for Small Box 1 */
+#box1 {
+    width: 500px;
+    height: 60px;
+    background-color: rgba(255, 255, 255,0.5); /* Blue */
+    margin-top: 120px;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(3,3,3);
+    
+}
+
+/* Styling for Big Box 2 */
+#box2 {
+    width: 900px;
+    height: 600px;
+    background-color: rgba(255, 255, 255,0.5); /* Red */
+    margin: 20px;
+    text-align: left;
+    font-size: 22px;
+    color:rgb(10,7,7);
+}

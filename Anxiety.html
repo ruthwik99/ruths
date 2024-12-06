@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anxiety</title>
+    <link rel="stylesheet" href="Anxiety.css">
+</head>
+<style>
+    body {
+        background-image: url('an2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        height: 100vh;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+</style>
+<body>
+    <div class="container">
+        <button onclick="Tips()" class="box">Tips</button>
+        <script>
+            function Tips() {
+                window.location.href = 'Tips.html';
+            }
+        </script>
+        <button onclick="Solution()" class="box">Solution</button>
+        <script>
+            function Solution() {
+                window.location.href = 'Solution.html';
+            }
+        </script>
+        <button onclick="Daily_Task()" class="box">Daily Tasks</button>
+        <script>
+            function Daily_Task() {
+                window.location.href = 'Daily_Task.html';
+            }
+        </script>
+</body>
+</html>

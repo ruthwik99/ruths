@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        background-image: url('img2.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        height: 100vh;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+</style>
+<body>
+    <div class="container">
+        <button onclick="Tips()" class="box">Tips</button>
+        <script>
+            function Tips() {
+                window.location.href = 'Tips_1.html';
+            }
+        </script>
+        <button onclick="Solution()" class="box">Solution</button>
+        <script>
+            function Solution() {
+                window.location.href = 'Solution_1.html';
+            }
+        </script>
+        <button onclick="Daily_Task()" class="box">Daily Tasks</button>
+        <script>
+            function Daily_Task() {
+                window.location.href = 'Daily_Task1.html';
+            }
+        </script>
+</body>
+</html>

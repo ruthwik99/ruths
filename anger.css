@@ -1,0 +1,52 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url('img2.png'); /* Add your image URL here */
+    background-size: cover; /* Make the background image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Align buttons in the center vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .box {
+    width: 400px;
+    height: 80px; /* Set a fixed width for each button */
+    padding: 25px;
+    background-color: #154f70;
+    color: white;
+    border: 2.35px solid black;
+    border-radius: 8px;
+    font-size: 25px;
+    font-style: Georgia;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .box:hover {
+    background-color: rgb(156, 112, 2); /* Darker shade when hovered */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  .box:active {
+    transform: translateY(2px); /* Button presses down slightly on click */
+}

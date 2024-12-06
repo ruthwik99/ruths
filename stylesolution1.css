@@ -1,0 +1,59 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container setup */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("im.webp");
+    background-size: cover; /* Make the background image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+/* Container for the boxes */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Styling for each box */
+.box {
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    background-color:rgba(225,225,225,0.5); 
+}
+
+/* Styling for Small Box 1 */
+#box1 {
+     /* Blue */
+    margin: 20px;
+    text-align:left;
+    font-size: 22px;;
+    
+}
+
+/* Styling for Big Box 2 */
+#box2 {
+     /* Red */
+    margin: 20px;
+    text-align: left;
+    font-size: 22px;
+}
+#box3 {
+    /* Blue */
+    margin: 20px;
+    text-align:leftS;
+    font-size: 22px;
+    
+}

@@ -1,0 +1,53 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container setup */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Container for the boxes */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Styling for each box */
+.box {
+    width: 300px;
+    height: 400px;
+    color: black;
+    background-color: rgb(166, 240, 166);
+    border-radius: 10px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.box .top-text{
+    align-self: center;
+    margin-bottom: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.box .left-text{
+    text-align: left;
+    margin-bottom: 1000px;
+    margin-left: 10px;
+}
